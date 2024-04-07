@@ -15,12 +15,13 @@
  const pkgDir  = require('pkg-dir')
 
  async function needReinstall () {
-   try {
-     await import('frida')
-     return false
-   } catch (_) {
-     return true
-   }
+   return fasle
+   // try {
+   //   await import('frida')
+   //   return false
+   // } catch (_) {
+   //   return true
+   // }
  }
 
  async function reinstall () {
