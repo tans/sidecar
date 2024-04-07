@@ -15,7 +15,7 @@
  const pkgDir  = require('pkg-dir')
 
  async function needReinstall () {
-   return fasle
+   return false
    // try {
    //   await import('frida')
    //   return false
